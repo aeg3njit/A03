@@ -1,16 +1,14 @@
 # A03
 
+# Directions on Using Git and Github
+
+
+
+# Directions on Using Webstorm
 
 
 
 
-
-
-
-
-
-
-**This text is _extremely_ important**
 # Glossary
 
 - **Branch**
@@ -25,3 +23,6 @@
 - **Pull**
 - **Remote**
 - **Repository**
+
+
+# References
