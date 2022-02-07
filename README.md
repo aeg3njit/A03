@@ -22,7 +22,6 @@ When you first install **Git** you must set your user name and email address.
 ```
 git config --global user.name "first last"
 git config --global user.email "email address"
-
 ```
 2. Create a **repository**
 
@@ -32,12 +31,10 @@ For example, if I want a **repository** on my desktop, I would use the following
 
 ```
 cd ~/Desktop
-
 ```
 To initialize the **repository** you use the following command: 
 ```
 git init
-
 ```
 
 (You can create a new **repository** on Github by loging in and going to your home page. You should then go to the "+" sign and click on "New repository") 
@@ -50,7 +47,6 @@ For example, if I want to add a project.txt file to the **repository** I would u
 
 ```
 touch project.txt
-
 ```
 (You can also create a new **repository** on Github by loging in and going to your home page. You should then go to the "+" sign and click on "New repository") 
 
@@ -62,7 +58,6 @@ To add a file to the staging area use the git add command.
   
 ```
 git add <filename>
-
 ```
 (You can also create new files on Github by going to your **repository** and clicking on the "Add file" button") 
 
@@ -72,7 +67,6 @@ To **commit** (changes to a file) use the commit command. You should include a m
 
 ```
 git commit -m "message"
-
 ```
 
 (You can also commit on Github by clicking on the pencil icon, adding your changes to the file, and then click "Commit changes" on the bottom of the page") 
@@ -84,7 +78,6 @@ A **branch** is a feature in git that allows the user to seperate a part of the 
 To create a new **branch** use the **branch** command. This command will make the requested **branch** and move you to that **branch**. 
 ```
 git checkout -b <branchname>
-
 ```
 
 6. **Push** **branch** to Github 
@@ -93,7 +86,6 @@ git checkout -b <branchname>
 
 ```
 git push origin <branchname>
-
 ```
 
 7. **Pull** 
