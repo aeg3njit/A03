@@ -37,7 +37,7 @@ To initialize the **repository** you use the following command:
 git init
 ```
 
-(You can create a new **repository** on Github by loging in and going to your home page. You should then go to the "+" sign and click on "New repository") 
+(You can create a new **repository** on **Github** by loging in and going to your home page. You should then go to the "+" sign and click on "New repository") 
 
 2. Add a file to the **repository**
 
@@ -48,7 +48,7 @@ For example, if I want to add a project.txt file to the **repository** I would u
 ```
 touch project.txt
 ```
-(You can also create a new **repository** on Github by loging in and going to your home page. You should then go to the "+" sign and click on "New repository") 
+(You can also create a new **repository** on **Github** by loging in and going to your home page. You should then go to the "+" sign and click on "New **repository**") 
 
 3. Add file to staging area
 
@@ -59,21 +59,21 @@ To add a file to the staging area use the git add command.
 ```
 git add <filename>
 ```
-(You can also create new files on Github by going to your **repository** and clicking on the "Add file" button") 
+(You can also create new files on **Github** by going to your **repository** and clicking on the "Add file" button") 
 
 4. **Commit** 
 
-To **commit** (changes to a file) use the commit command. You should include a message that gives a clear description of the changes that you've done to the project.
+To **commit** (changes to a file) use the **commit** command. You should include a message that gives a clear description of the changes that you've done to the project.
 
 ```
 git commit -m "message"
 ```
 
-(You can also commit on Github by clicking on the pencil icon, adding your changes to the file, and then click "Commit changes" on the bottom of the page") 
+(You can also **commit** on **Github** by clicking on the pencil icon, adding your changes to the file, and then click "**Commit** changes" on the bottom of the page") 
 
 5. Make a **branch**
 
-A **branch** is a feature in git that allows the user to seperate a part of the code from the main **branch** so the master **branch** can remain the same.
+A **branch** is a feature in **git** that allows the user to seperate a part of the code from the main **branch** so the master **branch** can remain the same.
 
 To create a new **branch** use the **branch** command. This command will make the requested **branch** and move you to that **branch**. 
 ```
@@ -82,7 +82,7 @@ git checkout -b <branchname>
 
 6. **Push** **branch** to Github 
 
-**Pushing** means you can make changes/updates to the **remote** (a **repository** that is not hosted locally such as Github) branch with local commits. To **push** changes to a new **branch** on Github use the following command:
+**Pushing** means you can make changes/updates to the **remote** (a **repository** that is not hosted locally such as **Github**) **branch** with local **commits**. To **push** changes to a new **branch** on **Github** use the following command:
 
 ```
 git push origin <branchname>
@@ -90,14 +90,14 @@ git push origin <branchname>
 
 7. **Pull** 
 
-To get and merge changes from the **remote** repository or Github to the current branch, you can use the **pull** command.
+To get and **merge** changes from the **remote** **repository** or **Github** to the current **branch**, you can use the **pull** command.
 
 ```
 git pull
 ```
 8. **Merge**
 
-**Merging** means the commits from the current branch are added to the main branch. To do this use the **merge** command as follows:
+**Merging** means the **commits** from the current **branch** are added to the main **branch**. To do this use the **merge** command as follows:
 
 ```
 git merge <branchname>
@@ -107,7 +107,7 @@ Note: A **merge conflict** may occur when Git finds conflicting changes and does
 
 9. **Fetch**
 
-By **fetching**, the user is able to download external files/commits, etc. from a remote repository to the local machine. To get the current history from the server and point the main branch to it, use this command:
+By **fetching**, the user is able to download external files/**commits**, etc. from a **remote** **repository** to the local machine. To get the current history from the server and point the main **branch** to it, use this command:
 
 ```
 git fetch origin
@@ -115,13 +115,13 @@ git fetch origin
 
 11. **Clone**
 
-To **clone** or copy the repository from Github.com (web servers) to the user's machine, you can run the clone command as follows:
+To **clone** or copy the **repository** from **Github** (web servers) to the user's machine, you can run the **clone** command as follows:
 
 ```
 git clone /path/to/repository
 ```
 
-To clone to a remote server, you can use this command: 
+To **clone** to a **remote** server, you can use this command: 
 
 ```
 git clone username@host:/path/to/repository
