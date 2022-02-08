@@ -42,7 +42,7 @@ git init
 
 (You can create a new **repository** on **Github** by loging in and going to your home page. You should then go to the "+" sign and click on "New repository") 
 
-2. Add a file to the **repository**
+3. Add a file to the **repository**
 
 To add a new file to the **repository** you can use the touch command with the file you want to add.
 
@@ -54,7 +54,7 @@ touch project.txt
 
 (You can also create new files on **Github** by going to your **repository** and clicking on the "Add file" button".) 
 
-3. Add file to staging area
+4. Add file to staging area
 
 The **repository** contains three main sections: the working directory (holds files), the staging area (contains files that will be a part of the next commit), and the head (tracks **commits**). 
 
@@ -64,7 +64,7 @@ To add a file to the staging area use the git add command.
 git add <filename>
 ```
 
-4. **Commit** 
+5. **Commit** 
 
 To **commit** (changes to a file) use the **commit** command. You should include a message that gives a clear description of the changes that you've done to the project.
 
@@ -74,7 +74,7 @@ git commit -m "message"
 
 (You can also **commit** on **Github** by clicking on the pencil icon, adding your changes to the file, and then click "**Commit** changes" on the bottom of the page") 
 
-5. Make a **branch**
+6. Make a **branch**
 
 A **branch** is a feature in **git** that allows the user to seperate a part of the code from the main **branch** so the master **branch** can remain the same.
 
@@ -83,7 +83,7 @@ To create a new **branch** use the **branch** command. This command will make th
 git checkout -b <branchname>
 ```
 
-6. **Push** **branch** to Github 
+7. **Push** **branch** to Github 
 
 **Pushing** means you can make changes/updates to the **remote** (a **repository** that is not hosted locally such as **Github**) **branch** with local **commits**. To **push** changes to a new **branch** on **Github** use the following command:
 
@@ -91,14 +91,14 @@ git checkout -b <branchname>
 git push origin <branchname>
 ```
 
-7. **Pull** 
+8. **Pull** 
 
 To get and **merge** changes from the **remote** **repository** or **Github** to the current **branch**, you can use the **pull** command.
 
 ```
 git pull
 ```
-8. **Merge**
+9. **Merge**
 
 **Merging** means the **commits** from the current **branch** are added to the main **branch**. To do this use the **merge** command as follows:
 
@@ -108,7 +108,7 @@ git merge <branchname>
 
 Note: A **merge conflict** may occur when Git finds conflicting changes and does not know which changes to include and which to exclude. Consider visiting this [page](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line) to learn more about how you can resolve the issue if it ever comes up.
 
-9. **Fetch**
+10. **Fetch**
 
 By **fetching**, the user is able to download external files/**commits**, etc. from a **remote** **repository** to the local machine. To get the current history from the server and point the main **branch** to it, use this command:
 
