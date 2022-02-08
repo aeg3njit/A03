@@ -13,6 +13,9 @@
 - **Git** is a software that is installed locally on the user's system, and is accessed through the command-line.
 - **Git** is supported by Linux and was released by Linus Torvalds (the creator of Linux) in 2005.
 
+![This is an image of Git and Github](https://editor.analyticsvidhya.com/uploads/18288git.jpg)
+
+
 ### How to Use **Git/Github**
 1. Get **Git/Github**
 
@@ -148,6 +151,8 @@ Choose Empty Project, pick the application folder for the project, and then clic
 3. Create a file in your project
 
 In the context menu of the selection, cick "New" and pick the file type you want the added file to be.
+
+![This image is from JetBrains and shows how to create a new file.](https://resources.jetbrains.com/help/img/idea/2021.3/ws_getting_started_create_new_file.png)
 
 4. Get started coding 
 
