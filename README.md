@@ -10,11 +10,11 @@
 
 ### **Git** Overview/History
 - Similar to **Github**, **Git** is a version control system, however it lacks many of the features that **Github** has.
-- **Git** is a software that is installed locally on the user's system is accessed through the command-line.
+- **Git** is a software that is installed locally on the user's system, and is accessed through the command-line.
 - **Git** is supported by Linux and was released by Linus Torvalds (the creator of Linux) in 2005.
 
 ### How to Use **Git/Github**
-1. Get **Git/Github**!
+1. Get **Git/Github**
 
 Follow this [link](https://github.com) to sign up for a **Github** account. You can also use this [link](https://git-scm.com/downloads) to install **Git**, which will help you use the system locally. 
 
@@ -25,7 +25,7 @@ git config --global user.email "email address"
 ```
 2. Create a **repository**
 
-A **repository** is a collection of files for a project. To create a **repository** you need to open your terminal on your device (if you haven't already from the last step) and use the cd command to the place where you would like to have your **repository**.
+A **repository** is a collection of files for a project. To create a **repository** you need to open your terminal on your device (if you haven't done so already from the last step) and use the cd command with the place where you would like to have your **repository**.
 
 For example, if I want a **repository** on my desktop, I would use the following command: 
 
@@ -48,18 +48,18 @@ For example, if I want to add a project.txt file to the **repository** I would u
 ```
 touch project.txt
 ```
-(You can also create a new **repository** on **Github** by loging in and going to your home page. You should then go to the "+" sign and click on "New **repository**") 
+
+(You can also create new files on **Github** by going to your **repository** and clicking on the "Add file" button".) 
 
 3. Add file to staging area
 
-The **repository** contains three main sections: the working directory (holds files), the staging area, and the head (tracks **commits**). 
+The **repository** contains three main sections: the working directory (holds files), the staging area (contains files that will be a part of the next commit), and the head (tracks **commits**). 
 
 To add a file to the staging area use the git add command. 
   
 ```
 git add <filename>
 ```
-(You can also create new files on **Github** by going to your **repository** and clicking on the "Add file" button") 
 
 4. **Commit** 
 
@@ -130,14 +130,30 @@ git clone username@host:/path/to/repository
 # Directions on Using Webstorm
 ## Webstorm 
 ### Webstorm Overview/History 
-- Webstorm is 
+- Webstorm is an integrated development environment (IDE) for multiple programming languages (including Java, JavaScript, Python, etc.). An IDE helps programmers code more efficiently and effectively with built-in tools such as a text editor, debugger, and code completion. 
+- Webstorm was created by the software company JetBrains (founded in 2000).
 
 ### How to Use Webstorm**
 
 1. Download Webstorm 
 
-Use this [link](https://www.jetbrains.com/community/education/#students) to download Webstorm (student edition).
+Use this [link](https://www.jetbrains.com/community/education/#students) to download Webstorm (student edition). Make sure to download and install the latest and correct version (for your machine). 
 
+2. Open the app and create a project
+
+After opening up Webstorm on your device, you will be brought to a welcome screen that gives you three options: "New Project", "Open", and "Get from VCS". Click on "New Project". Alternatively, you can select File > New > Project from the main menu. 
+
+Choose Empty Project, pick the application folder for the project, and then click "Create".
+
+3. Create a file in your project
+
+In the context menu of the selection, cick "New" and pick the file type you want the added file to be.
+
+4. Get started coding 
+
+You can now populate your files with code and run them using "Run" or the play button on the interface.
+
+Good luck!
 
 # Glossary
 
@@ -159,4 +175,7 @@ Use this [link](https://www.jetbrains.com/community/education/#students) to down
 1. [GeeksforGeeks](https://www.geeksforgeeks.org/difference-between-git-and-github/)
 2. [Github Documentation](https://docs.github.com/en)
 3. [Hubspot](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)
-4. IS117 Powerpoint Slides
+4. [Git](https://git-scm.com/docs/gittutorial)
+5. [PhoenixNap](https://phoenixnap.com/kb/how-to-use-git)
+6. [Jetbrains](https://www.jetbrains.com/help/webstorm/getting-started-with-webstorm.html)
+7. IS117 Powerpoint Slides
